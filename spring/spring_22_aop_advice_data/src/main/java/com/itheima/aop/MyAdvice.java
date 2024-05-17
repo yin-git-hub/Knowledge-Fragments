@@ -28,7 +28,7 @@ public class MyAdvice {
         System.out.println("after advice ...");
     }
 
-    //ProceedingJoinPoint：专用于环绕通知，是JoinPoint子类，可以实现对原始方法的调用
+    // ProceedingJoinPoint：专用于环绕通知，是JoinPoint子类，可以实现对原始方法的调用
 //    @Around("pt()")
     public Object around(ProceedingJoinPoint pjp) {
         Object[] args = pjp.getArgs();
