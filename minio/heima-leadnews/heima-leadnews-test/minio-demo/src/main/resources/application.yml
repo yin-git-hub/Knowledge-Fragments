@@ -1,6 +1,0 @@
-minio:
-  accessKey: minio
-  secretKey: minio123
-  bucket: minio-demo
-  endpoint: http://192.168.197.128:9000
-  readPath: http://192.168.197.128:9000
