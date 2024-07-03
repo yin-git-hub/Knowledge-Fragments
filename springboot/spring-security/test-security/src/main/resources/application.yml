@@ -1,0 +1,11 @@
+#spring:
+#  freemarker:
+#    # 设置freemarker模板后缀
+#    suffix: .ftl
+#    # 设置freemarker模板前缀
+#    template-loader-path: classpath:/templates/
+#    enabled: true
+#  security:
+#    user:
+#      name: admin
+#      password: 123456
