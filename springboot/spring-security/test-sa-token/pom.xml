@@ -7,10 +7,12 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>test-Oauth2</artifactId>
+    <groupId>com.xzsy</groupId>
+    <artifactId>test-sa-token</artifactId>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>test-Oauth2</name>
+    <name>test-sa-token</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -18,11 +20,12 @@
     </properties>
 
     <dependencies>
+        <!-- Sa-Token 权限认证，在线文档：https://sa-token.cc -->
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-spring-boot-starter</artifactId>
+            <version>1.38.0</version>
         </dependency>
+
     </dependencies>
 </project>
